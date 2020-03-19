@@ -1,0 +1,41 @@
+{
+  "about this file": "This document defines configuration for this project that is not content or copy.",
+  "projectIdentifier": "20120322-cvecon",
+
+
+  "social": {
+    "image": "assets/images/strib/strib-logo-name-social-card.png"
+  },
+
+  "styles": {
+    "globals": [
+    ]
+  },
+  "js": {
+    "globals": [
+      "https://cdn.polyfill.io/v2/polyfill.min.js",
+      "https://static.startribune.com/assets/libs/pym.js/1.3.2/pym.v1.min.js"
+    ]
+  },
+  "publishToken": "ea3a72d05de4cb83423a269650bd46ff",
+  "publish": {
+    "default": {
+      "bucket": "static.startribune.com",
+      "path": "news/projects-staging/all/20120322-cvecon",
+      "url": "http://static.startribune.com/news/projects-staging/all/20120322-cvecon/",
+      "cacheSeconds": 30
+    },
+    "testing": {
+      "bucket": "stribtest-bucket",
+      "path": "news/projects/20120322-cvecon",
+      "url": "https://s3.amazonaws.com/stribtest-bucket/news/projects/20120322-cvecon/",
+      "cacheSeconds": 30
+    },
+    "production": {
+      "bucket": "static.startribune.com",
+      "path": "news/projects/all/20120322-cvecon",
+      "url": "http://static.startribune.com/news/projects/all/20120322-cvecon/",
+      "cacheSeconds": 600
+    }
+  }
+}
